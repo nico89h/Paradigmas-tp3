@@ -1,0 +1,18 @@
+/*
+ * Vector.cpp
+ *
+ *  Created on: 14 sept. 2022
+ *      Author: Alumno
+ */
+
+#include "Vector.h"
+
+Vector::Vector() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Vector::~Vector() {
+	// TODO Auto-generated destructor stub
+}
+

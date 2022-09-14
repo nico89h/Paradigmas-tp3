@@ -1,0 +1,19 @@
+/*
+ * Producto.cpp
+ *
+ *  Created on: 14 sept. 2022
+ *      Author: Alumno
+ */
+
+#include "Producto.h"
+#include <iostream>
+using namespace std;
+Producto::Producto() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Producto::~Producto() {
+	// TODO Auto-generated destructor stub
+}
+

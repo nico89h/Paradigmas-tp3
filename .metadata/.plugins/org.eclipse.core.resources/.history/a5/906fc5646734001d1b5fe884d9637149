@@ -1,0 +1,23 @@
+/*
+ * Producto.h
+ *
+ *  Created on: 14 sept. 2022
+ *      Author: Alumno
+ */
+
+#ifndef PRODUCTO_H_
+#define PRODUCTO_H_
+#include <cstring.h>
+using namespace std;
+//inicio de la creacion de la clase producto
+class Producto {
+private:
+	int codigo;
+	string cadena;
+
+public:
+	Producto();
+	virtual ~Producto();
+};
+
+#endif /* PRODUCTO_H_ */

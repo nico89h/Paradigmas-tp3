@@ -1,0 +1,66 @@
+18:32:53 **** Rebuild of configuration Debug for project ejercicio1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ejercicio1.o" "..\\src\\ejercicio1.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Vector.o" "..\\src\\Vector.cpp" 
+..\src\Vector.cpp:18:7: error: el prototipo para 'item& Vector::operator[](int) const' no coincide con ningún otro en la clase 'Vector'
+ item& Vector::operator[](int pos)const{
+       ^~~~~~
+In file included from ..\src\Vector.cpp:8:0:
+..\src\Vector.h:26:7: error: el candidato es: item Vector::operator[](int)
+  item operator[](int pos);
+       ^~~~~~~~
+18:33:24 **** Incremental Build of configuration Debug for project ejercicio1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Producto.o" "..\\src\\Producto.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Vector.o" "..\\src\\Vector.cpp" 
+..\src\Vector.cpp:18:7: error: el prototipo para 'item& Vector::operator[](int) const' no coincide con ningún otro en la clase 'Vector'
+ item& Vector::operator[](int pos)const{
+       ^~~~~~
+In file included from ..\src\Vector.cpp:8:0:
+..\src\Vector.h:26:8: error: el candidato es: item& Vector::operator[](int)
+  item& operator[](int pos);
+        ^~~~~~~~
+18:33:37 **** Incremental Build of configuration Debug for project ejercicio1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Vector.o" "..\\src\\Vector.cpp" 
+..\src\Vector.cpp: En la función miembro 'item& Vector::operator[](int)':
+..\src\Vector.cpp:20:27: error: inicialización no válida de la referencia de tipo 'item& {aka int&}' desde una expresión de tipo 'Producto'
+   return this->arreglo[pos];
+          ~~~~~~~~~~~~~~~~~^
+..\src\Vector.cpp:23:25: error: inicialización no válida de la referencia de tipo 'item& {aka int&}' desde una expresión de tipo 'Producto'
+   return this->arreglo[0];
+          ~~~~~~~~~~~~~~~^
+18:34:01 **** Incremental Build of configuration Debug for project ejercicio1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Vector.o" "..\\src\\Vector.cpp" 
+..\src\Vector.cpp:18:7: error: el prototipo para 'item& Vector::operator[](int) const' no coincide con ningún otro en la clase 'Vector'
+ item& Vector::operator[](int pos)const{
+       ^~~~~~
+In file included from ..\src\Vector.cpp:8:0:
+..\src\Vector.h:26:8: error: el candidato es: item& Vector::operator[](int)
+  item& operator[](int pos);
+        ^~~~~~~~
+18:34:53 **** Incremental Build of configuration Debug for project ejercicio1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Vector.o" "..\\src\\Vector.cpp" 
+..\src\Vector.cpp: En la función miembro 'item& Vector::operator[](int) const':
+..\src\Vector.cpp:20:27: error: inicialización no válida de la referencia de tipo 'item& {aka int&}' desde una expresión de tipo 'Producto'
+   return this->arreglo[pos];
+          ~~~~~~~~~~~~~~~~~^
+..\src\Vector.cpp:23:25: error: inicialización no válida de la referencia de tipo 'item& {aka int&}' desde una expresión de tipo 'Producto'
+   return this->arreglo[0];
+          ~~~~~~~~~~~~~~~^
+18:34:57 **** Incremental Build of configuration Debug for project ejercicio1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Vector.o" "..\\src\\Vector.cpp" 
+..\src\Vector.cpp: En la función miembro 'item& Vector::operator[](int) const':
+..\src\Vector.cpp:20:27: error: inicialización no válida de la referencia de tipo 'item& {aka int&}' desde una expresión de tipo 'Producto'
+   return this->arreglo[pos];
+          ~~~~~~~~~~~~~~~~~^
+..\src\Vector.cpp:23:25: error: inicialización no válida de la referencia de tipo 'item& {aka int&}' desde una expresión de tipo 'Producto'
+   return this->arreglo[0];
+          ~~~~~~~~~~~~~~~^
+18:35:38 **** Incremental Build of configuration Debug for project ejercicio1 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Vector.o" "..\\src\\Vector.cpp" 
+g++ -o ejercicio1.exe "src\\Producto.o" "src\\Vector.o" "src\\ejercicio1.o" 
