@@ -9,9 +9,7 @@
 
 Vector::Vector() {
 	// TODO Auto-generated constructor stub
-	//inicio de la creacion de el vector
-	this->max=0;
-	this->arreglo= new Producto[0];
+
 }
 
 Vector::~Vector() {
