@@ -4,7 +4,6 @@
  *  Created on: 14 sept. 2022
  *      Author: Alumno
  */
-
 #ifndef VECTOR_H_
 #define VECTOR_H_
 #include <iostream>
@@ -17,12 +16,12 @@ class Vector {
 private:
 	int max;
 public:
-	Vector();
+	Vector();//inicio de constructor
 	virtual ~Vector();
 	bool reservarMemoria(int dim);
-	void getCapacidad();
+	void getCapacidad();//se devolvera la capacidad de el arreglo
 	//vector <Producto*> P;//xd
-	Producto *arreglo;
+	Producto *arreglo;//agregacion
 	Producto& operator[](int pos)const;
 };
 

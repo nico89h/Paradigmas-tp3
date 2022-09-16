@@ -8,8 +8,13 @@
 
 #include <iostream>
 using namespace std;
-
+#include "Vector.h"
 int main() {
-	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	//cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	Vector jose; //
+	bool nose=jose.reservarMemoria(2);
+	jose.getCapacidad();
+	getchar();
+	jose.arreglo[0].listarInformacion();
 	return 0;
 }

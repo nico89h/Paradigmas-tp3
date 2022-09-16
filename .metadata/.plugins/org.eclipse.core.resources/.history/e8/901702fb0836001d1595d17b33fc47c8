@@ -1,0 +1,29 @@
+/*
+ * Producto.cpp
+ *
+ *  Created on: 14 sept. 2022
+ *      Author: Alumno
+ */
+
+#include "Producto.h"
+#include <iostream>
+using namespace std;
+Producto::Producto(int Codigo=0,string Cadena="Inicio", float PrecioBase=0.0) {
+	// TODO Auto-generated constructor stub
+	this->codigo=Codigo;
+	this->cadena=Cadena;
+	this->precioBase=PrecioBase;
+}
+const float Producto::IVA=0.21;
+//inicio de la creacion de la clase
+Producto::~Producto() {
+	// TODO Auto-generated destructor stub
+}
+void Producto::listarInformacion(){
+	cout<<"Los datos del producto son:"<<endl;
+	cout<<"Codigo "<<this->cadena<<endl;
+	cout<<"Precio base "<<this->calcularPrecioDeVenta()<<endl;
+}
+float Producto::calcularPrecioDeVenta(){
+	return precioBase*IVA;
+}

@@ -1,10 +1,3 @@
-/*
- * Producto.h
- *
- *  Created on: 14 sept. 2022
- *      Author: Alumno
- */
-
 #ifndef PRODUCTO_H_
 #define PRODUCTO_H_
 #include <iostream>
@@ -17,6 +10,7 @@ private:
 	float precioBase;
 	static const float IVA;
 public:
+	Producto();
 	Producto(int Codigo,string Cadena, float PrecioBase);
 	virtual ~Producto();
 	void listarInformacion();
